@@ -3,7 +3,7 @@ import { useCallback, useEffect, useState } from 'react';
 import './styles.css';
 
 import { loadPosts } from '../../utils/load-posts'
-import { Post } from '../../components/Posts';
+import { Post, Posts } from '../../components/Posts';
 import { Button } from '../../components/Button';
 import { TextInput } from '../../components/TextInput';
 
@@ -67,7 +67,7 @@ export const Home = () => {
       
       
       {filteredPosts.length > 0 && (
-        <Post posts={filteredPosts}/>
+        <Posts posts={filteredPosts}/>
       )}
 
       {filteredPosts.length === 0 && (
