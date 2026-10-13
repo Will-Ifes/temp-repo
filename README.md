@@ -2,18 +2,19 @@
 
 Aplicação React que combina posts e imagens do JSONPlaceholder, com busca e carregamento incremental.
 
-## Contexto e objetivo
-
 Estudo com Create React App e Testing Library. O nome do repositório é histórico.
 
-## Funcionalidades presentes
+## Destaques
 
 - Consulta paralela de posts e imagens.
 - Busca por título e estado vazio.
 - Carregamento incremental.
 - Arquivos de testes de componentes e da página Home.
 
-## Por dentro do código
+<details>
+<summary><strong>Organização e código</strong></summary>
+
+### Por dentro do código
 
 | Código | O que observar |
 | --- | --- |
@@ -22,7 +23,12 @@ Estudo com Create React App e Testing Library. O nome do repositório é histór
 | [`src/templates/Home/Home.spec.jsx`](src/templates/Home/Home.spec.jsx) | Teste da página. |
 | [`src/components/Button/Button.spec.jsx`](src/components/Button/Button.spec.jsx) | Teste de componente. |
 
-## Executar localmente
+</details>
+
+<details>
+<summary><strong>Executar e consultar</strong></summary>
+
+### Executar localmente
 
 Requer Node.js e npm compatíveis com as dependências versionadas.
 
@@ -35,9 +41,7 @@ npm start
 
 Abra o endereço informado pelo servidor no terminal.
 
-
-
-## Comandos disponíveis
+### Comandos disponíveis
 
 | Comando | Script versionado |
 | --- | --- |
@@ -45,11 +49,14 @@ Abra o endereço informado pelo servidor no terminal.
 | `npm run build` | `react-scripts build` |
 | `npm test` | `react-scripts test` |
 
-Os comandos refletem o `package.json`. A existência de um script não comprova execução bem-sucedida no ambiente atual.
+</details>
 
-## Escopo e evolução
+<details>
+<summary>Escopo e referências</summary>
 
 Depende de APIs externas. A atualização da lista e as dependências do efeito de carregamento são pontos de revisão para evitar comportamento inesperado.
+
+</details>
 
 ---
 
